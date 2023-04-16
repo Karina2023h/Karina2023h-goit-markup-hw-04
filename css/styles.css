@@ -523,7 +523,6 @@ info-link.link:focus {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-
 }
 
 
@@ -575,3 +574,153 @@ info-link.link:focus {
 .link {
   text-decoration: none;
 }
+
+/* hw4 */
+.hero {
+  background-image: url(../images/price/Dark-bg.png), url(../images/price/people-office\ 1.png);
+  max-width: 1440px;
+  height: 600px;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .itom::before {
+  display: block;
+  content: '';
+  height: 112px;
+  background: #F4F4FD;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 8px;
+} */
+
+.glav-iconka {
+  display: flex;
+  background: #F4F4FD;
+  height: 112px;
+  margin-bottom: 8px;
+  justify-content: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  gap: 24px;
+  align-items: center;
+}
+
+
+
+
+
+
+
+/* iconka */
+
+.theam-iconka-cont {
+  margin-top: 8px;
+}
+
+.theam-iconka-list {
+  display: flex;
+  gap: 24px;
+  max-height: 40px;
+  justify-content: center;
+  background-position: center;
+}
+
+.theam-iconka-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.theam-iconka {
+  width: 16px;
+  height: 16px;
+  fill: white;
+}
+
+
+/* customer */
+
+.customer {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers {
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  margin-bottom: 72px;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
+.client-list {
+  display: flex;
+  gap: 24px;
+}
+
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  color: #8E8F99;
+}
+
+.client-link:hover,
+.client-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.client-icons {
+  fill: currentColor;
+}
+
+/* footer */
+.social-media {
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.link-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-footer-list {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.foot-nav {
+  align-items: center;
+  display: flex;
+  align-items: baseline;
+}
+
+.social-nav {
+  margin-left: 120px;
+}
+
+/* footer portfolio */
