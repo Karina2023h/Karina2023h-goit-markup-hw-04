@@ -633,6 +633,12 @@ info-link.link:focus {
   background-position: center;
 }
 
+.theam-iconka-link:hover,
+.theam-iconka-link:focus {
+  background-color: #404bbf;
+}
+
+
 .theam-iconka-link {
   background-color: #4d5ae5;
   display: flex;
@@ -712,6 +718,11 @@ info-link.link:focus {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+}
+
+.link-sosial-media:focus,
+.link-sosial-media:hover {
+  background-color: #31d0aa;
 }
 
 .social-media-footer-list {
