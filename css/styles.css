@@ -581,7 +581,7 @@ info-link.link:focus {
 
 /* hw4 */
 .hero {
-  background-image: url(../images/price/Dark-bg.png), url(../images/price/people-office\ 1.png);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/price/people-office\ 1.jpg);
   max-width: 1440px;
   height: 600px;
   background-position: center;
@@ -725,7 +725,7 @@ info-link.link:focus {
   background-color: #31d0aa;
 }
 
-.social-media-footer-list {
+.social-footer-list {
   display: flex;
   gap: 16px;
   align-items: baseline;
@@ -734,7 +734,8 @@ info-link.link:focus {
 .foot-nav {
   display: flex;
   align-items: baseline;
-
+  margin-right: 120px;
+  margin-left: 120px;
 }
 
 .social-nav {
