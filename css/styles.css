@@ -743,13 +743,12 @@ info-link.link:focus {
   display: flex;
   gap: 16px;
   align-items: baseline;
+
 }
 
 .foot-nav {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
-  margin-left: 120px;
 }
 
 .social-nav {
