@@ -639,12 +639,14 @@ info-link.link:focus {
   margin-top: 8px;
 }
 
+
 .theam-iconka-list {
   display: flex;
   gap: 24px;
   max-height: 40px;
   justify-content: center;
   background-position: center;
+  margin-top: 8px;
 }
 
 .theam-iconka-link:hover,
