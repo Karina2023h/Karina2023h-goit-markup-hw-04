@@ -703,12 +703,12 @@ info-link.link:focus {
   height: 88px;
   border: 1px solid #8E8F99;
   border-radius: 4px;
-  color: #8E8F99;
+  color: var(--subtle-text);
 }
 
 .client-link:hover,
 .client-link:focus {
-  border-color: #404bbf;
+  border: 1px solid #404bbf;
   color: #404bbf;
 }
 
