@@ -751,11 +751,14 @@ info-link.link:focus {
 .foot-nav {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .iconka-sm {
   fill: #f4f4fd
+}
+
+footer>.container {
+  gap: 120px;
 }
 
 /* footer portfolio */
